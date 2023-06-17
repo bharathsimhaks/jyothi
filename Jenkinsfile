@@ -15,6 +15,7 @@ pipeline{
 		    sh '''
                     echo "disk utilsation"
                     free
+		    df -kh
 		    '''
                 }
             }
