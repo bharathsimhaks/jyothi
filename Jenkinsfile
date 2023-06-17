@@ -14,7 +14,7 @@ pipeline{
                 steps{
 		    sh '''
                     echo "disk utilsation"
-                    du -sch *
+                    df -kh *
 		    '''
                 }
             }
